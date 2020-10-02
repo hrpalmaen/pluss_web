@@ -1,0 +1,119 @@
+p {
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    font-size: 0.85em
+}
+
+.text-header-pdf {
+    font-size: 0.9em;
+    align-content: flex-end;
+}
+
+.container-pdf {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.information-client-pdf p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.image-logo-pdf {
+    /* height: 100px; */
+    width: 65%;
+}
+
+.header-pdf {
+    text-align: left;
+    padding: 1% !important;
+}
+
+.text-descripcion {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.text-descripcion p {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin: 0.1em;
+}
+
+.text-descripcion span {
+    font-weight: bold;
+    /* font-size: 0.85em; */
+}
+
+.bar-head {
+    background-color: #ff0000 !important;
+    height: 1.5em;
+}
+
+.quotation-title {
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: white;
+    width: 10%;
+    position: relative;
+    height: 1.5em;
+    left: 70%;
+    font-size: 1.1em;
+}
+
+.floor-pdf {
+    margin-top: 1em;
+    font-size: 0.7em;
+}
+
+.sub-title-pdf {
+    font-size: 1.2em;
+}
+
+.name-product {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.product-section-pdf {
+    padding-top: 1em;
+    display: flex;
+}
+
+.text-justify-pdf {
+    text-align: justify;
+}
+
+.text-descriptionPDF p {
+    margin: 0px;
+}
+
+.text-descriptionPDF {
+    margin: 1em 0;
+}
+
+/* .product-image-pdf{
+    height: 11em;
+    width: 13em;
+} */
+
+.quote-delivery span {
+    color: red;
+}
+
+.quote-delivery p:not(:first-child) {
+    padding-left: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+th.MuiTableCell-root {
+    text-align: center;
+}
+
+.MuiTable-root {
+    width: 65% !important;
+    margin: auto;
+}

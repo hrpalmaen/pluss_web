@@ -1,0 +1,327 @@
+.action-add-product {
+  background: #0000004f;
+  position: absolute;
+  height: 100%;
+  z-index: 100;
+  width: 100%;
+  /* display: none; */
+  border-radius: 5px;
+  box-shadow: 0 0 20px -8px inset;
+  padding: 10px;
+  /* -webkit-animation-name: fade-options; 
+  -webkit-animation-duration: 1s;
+  animation-name: fade-options;
+  animation-duration: 1s; */
+}
+
+/* Safari 4.0 - 8.0 */
+/* @-webkit-keyframes fade-options {
+  0%   {opacity: 0; width: 0%;}
+  100% {opacity: 1; width: 100%;}
+} */
+
+/* Standard syntax */
+/* @keyframes fade-options {
+  0%   {opacity: 0; width: 0%;}
+  100% {opacity: 1; width: 100%;}
+} */
+
+/* .add-product:hover .action-add-product {
+  display: none;
+} */
+
+.action-add-product .delete-product button {
+  margin: 0 3px;
+}
+
+.add-product:hover .action-add-product {
+  display: block;
+}
+
+.add-product .action-add-product .delete-product {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-edit-product {
+  font-weight: bold;
+  color: #db2929;
+  font-size: 1.5em;
+  background: #fff;
+}
+
+/* .add-product:hover .action-add-product .delete-product{
+  display: flex;
+} */
+/* 
+.action-add-product:hover .delete-product {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+} */
+
+.App {
+  font-family: Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+:focus {
+  outline: none !important;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.title {
+  border-left: 5px solid #DB2929;/*#db2929;*/
+  padding: 5px 7px;
+  font-weight: 500;
+  color: #464646;
+  font-size: 19px;
+  margin: 0 0 2em !important;
+}
+.title-modal {
+  /* background: #DB2929; */
+  /* color: black; */
+  /* border-left: 5px solid #DB2929; */
+  padding: 12px 12px;
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: center;
+  background: #c11212;
+  color: #f9d8d8;
+}
+
+.sub-title span.text {
+  background: #f9d8d8;
+  color: #c11212;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-weight: 600;
+}
+
+.sub-title {
+  border-bottom: 2px solid #f9d8d8;
+  margin-top: 2em;
+}
+
+.sub-title-2 {
+  border-bottom: 2px solid #d4d4d4;
+  margin-top: 2em;
+}
+.sub-title-2 span.text-2 {
+  background: #d4d4d4;
+  color: #6d6b6b;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-more {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: auto !important;
+  color: #000000;
+}
+
+.button-more-units {
+  margin: 6px 0 !important;;
+  min-width: auto !important;
+  color: #000000;
+}
+
+.action-title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-title span.text {
+  background: #f9d8d8;
+  color: #c11212;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.title-text {
+  padding-left: 0 !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/************** Products ***********/
+
+.material-card {
+  padding: 1%;
+}
+.img-product{
+  /* height: 60%; */
+  width: 100%;
+}
+
+.material-card div {
+      /* position: absolute; */
+      overflow: hidden;
+      /* left: 0; */
+      width: 100%;
+      padding: 10px 16px;
+      color: #fff;
+      background-color: #db2929;
+      opacity: .8;
+      font-size: 1em;
+      line-height: 1.3em;
+      /* margin: 0; */
+      z-index: 10;      
+  }
+  .material-card div  a {
+    /* display: block; */
+    float: right;
+    /* position: relative; */
+    /* width: 52px; */
+    /* height: 52px; */
+    margin-left: 5px;
+    /* margin-bottom: 15px; */
+    /* font-size: 28px; */
+    /* color: #fff; */
+    /* line-height: 52px; */
+    text-decoration: none;
+    top: 200px;
+  }
+
+  /*************** Detail Products ***********/
+
+  .text-detail span {
+    font-weight: bolder;
+  }
+
+
+  /****** Edition class material ******/
+
+.MuiFormControl-root {
+  padding-right: 15px !important;
+  /* margin-right: 2px; */
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: red !important;
+  opacity: .6;
+}
+
+.formControl {
+  min-width: 100% !important;
+}
+
+.MuiButton-containedSecondary {
+  background-color:#db2929 !important;
+  /* opacity: .6; */
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 1000px !important;
+}
+
+.MuiButton-textPrimary {
+  color: #000000;
+}
+
+.MuiChip-outlinedPrimary {
+  color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.MuiChip-deleteIcon {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.MuiChip-deleteIcon:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+/**************** NAV-BAR ***************/
+
+div#nav-var-pluss {
+  display: flex;
+}
+
+.nav-bar-text {
+  margin-left: 0 !important;
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-size: 1em !important;
+}
+
+.nav-bar-items:hover .MuiListItemIcon-root {
+  color: #db2929 !important;
+  /* text-decoration: none; */
+  /* background-color: #f9d8d8; */
+  /* color: #f9d8d8 !important; */
+}
+
+.nav-bar-items:hover p {
+  /* color: #db2929 !important; */
+  font-weight: 700 !important;
+}
+
+.nav-bar-items .MuiListItemIcon-root {
+  min-width: 30px !important;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root:hover,
+.MuiListItem-button:hover,
+.MuiButtonBase-root.MuiListItem-root.nav-bar-items.MuiListItem-gutters.MuiListItem-button:hover {
+  background-color: #f9d8d8;
+  color: #db2929;
+  text-decoration: none !important;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 2px solid rgb(249, 216, 216);
+}
+
+.MuiDivider-root {
+  height: 2px !important;
+  background-color: rgb(249, 216, 216) !important;
+}
+
+/************************* FORM QUOTATION ***************************/
+
+.form-quotation {
+  padding: 0 3em;
+}
+
+.form-units {
+  padding: 1em 3em 0;
+}
+
+.lbl-error{
+  font-size: 11.5px;
+  color: red;
+  background: #f9d8d8;
+  width: initial;
+  margin-right: 15px !important;
+  text-align: center;
+}

@@ -1,0 +1,273 @@
+.menuFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.9rem;
+    background: #fd080847;
+    border-radius: 0.5rem;
+    top: 17.5%;
+    right: 2%;
+    text-align: center;
+    transition: rigth 1.7s;
+    border-radius: 20px !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.menuFilter:hover{
+    background: #fd080863;
+}
+
+.checkboxFilter:checked~.menuFilter {
+    right: 20%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    z-index: 1;
+}
+
+.rigth-panel {
+    width: 20%;
+    height: 100%;
+    background: -webkit-linear-gradient(#f5f5f4, #f5f5f4, #f5f5f4);
+    background: -o-linear-gradient(#f5f5f4, #f5f5f4, #f5f5f4);
+    background: linear-gradient(#f5f5f4, #f5f5f4, #f5f5f4);
+    position: absolute;
+    top: 0%;
+    right: -20%;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+    align-content: center;
+    transition: rigth 0.4s;
+    z-index: 0;
+}
+
+.checkboxFilter:checked~.rigth-panel {
+    right: 0;
+    z-index: 1;
+}
+
+.checkboxFilter {
+    display: none;
+}
+
+.button-actions-filters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-actions-filters button:first-child {
+    margin-right: 0.25rem;
+}
+
+.input-f {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1875em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.div-input-filter {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.input-filter {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.input-underline:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #3f51b5;
+    pointer-events: none;
+}
+
+.input-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    pointer-events: none;
+}
+
+.MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    pointer-events: none;
+}
+
+.title-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-bottom: 0.5rem;
+    font: inherit;
+    color: #7d7979;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+/* ------------- */
+
+/* .input-filter-root{
+    position: relative;
+} */
+
+.input-filter-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.1875em;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.input-filter-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    pointer-events: none;
+}
+
+.input-filter-underline:after {
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #3f51b5;
+    pointer-events: none;
+}
+
+
+.base-input-filter {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1875em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.select-input-filter{
+    width: 100%;
+}
+
+/* BUTTONS */
+
+.button-base-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+
+.button-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+}
+
+.button-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    border: none;
+    font-size: 1em;
+}
+
+.button-label-secondary {
+    background-color: #db2929;
+    color: white;
+    font-weight: bold;
+    /* margin-right: 0.1rem; */
+}
+
+.button-containedSecondary {
+    color: #fff;
+    background-color: #db2929;
+}
+
+
+
+

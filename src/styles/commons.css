@@ -1,0 +1,130 @@
+.text-expand{
+    font-size: 1.1em;
+    color: #db2929;/*#97b10c;*/
+    text-align: right;
+    font-weight: bold;
+}
+
+.container-padding {
+    margin-bottom: 15px !important;
+}
+
+.messagge-validator {
+    font-size: 0.8 em;
+    color: red;
+}
+
+.MuiTable-root {
+    width: 98% !important;
+}
+
+.margin-component {
+    margin-top: 1em;
+}
+
+.margin-component .text-center {
+    padding: 10px 0;
+}
+
+.container-button {
+    margin: 2em 0;
+}
+
+.container-button button {
+    margin: 0em 0.5em !important;
+}
+
+/*************************** Style lists **********************/
+table:first-child td div button span.material-icons.MuiIcon-root {
+    background: #d22e2e;
+    border-radius: 50px;
+    padding: 4px;
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table:first-child td div button {
+    padding: 3px;
+}
+
+table:first-child td div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft {
+    text-align: center;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit:hover span {
+    transition: .1s;
+    font-size: 19px;
+    width: 31px;
+    height: 31px;
+}
+/*Alertas*/
+.MuiFormHelperText-root.Mui-error {
+    color: #f44336;
+    background: #f9d8d8;
+    padding: 5px !important;
+    margin: 0 !important;
+    font-size: 11.5px;
+    text-align: center;
+    width: initial;
+}
+
+/***** envio de emails ***********/
+.create-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #00000052;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.create-update-form {
+    background: #ffffffff;
+    display: block;
+    min-width: 50%;
+    z-index: 100;
+    box-shadow: 0 0 12px -5px inset;
+    max-width: 70%;
+}
+
+.create-update-form form {
+    margin: 1% 5% 5%;
+}
+
+
+
+@media only screen and (min-width: 300px) {
+    /* For tablets: */
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+  }
+
+  .view {
+    width: -webkit-fill-available;
+    padding: 1.4em;
+}

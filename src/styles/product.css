@@ -1,0 +1,37 @@
+:root {
+    --main-bg-color: rgba(255, 0, 0, 0.75);
+    --main-bg-color-w: rgba(0, 0, 0, .03);
+    --main-text-size: 0.9em;
+}
+
+.icon-active :hover {
+    font-size: 1.4em !important;
+    color: rgb(212, 211, 193);
+}
+
+.icon-active {
+    font-size: 1.3em !important;
+    color: wheat;
+}
+
+.card-body {
+    background-color: var(--main-bg-color-w);
+    padding: 0.7rem !important;
+}
+
+.text-common {
+    font-size: var(--main-text-size);
+}
+
+.text-alter {
+    padding-top: 4em;
+}
+
+.store-car {
+    font-size: 1.7 !important;
+    cursor: pointer;
+}
+
+.store-car :hover {
+    font-size: 1.8 !important;
+}
